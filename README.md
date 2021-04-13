@@ -16,7 +16,7 @@ This repository contains a mapping of SMK object IDs and their latitude and long
 
 * [smk-open-wof.csv](smk-open-wof.csv)
 
-And now it's possible to query for objects in the SMK collection using a WOF ID. For example, here are works in the neighbourhood of [Niels Juels Gade](https://spelunker.whosonfirst.org/id/85906061):
+And now it's possible to query for objects in the SMK collection using a WOF ID. For example, here are works in the neighbourhood of [Niels Juels Gade](https://spelunker.whosonfirst.org/id/85906061) (85906061):
 
 ```
 $> grep 85906061 ./smk-open-wof.csv 
@@ -27,11 +27,9 @@ $> grep 85906061 ./smk-open-wof.csv
 3193,55.67739609142182,12.587052924731443,85906061,101749159,Niels Juels Gade,neighbourhood
 ```
 
-It also contains the raw SMK data source used to build this mapping:
+Here are all the airlines from Denmark (85633121) that hold hands with the SFO Museum collection:
 
-* [smk-open.json](smk-open.json)
-
-I was going to include the raw WOF (SQLite) data as well but it's 385MB. Instructions for building it from scratch are included below.
+* https://millsfield.sfomuseum.org/countries/85633121/airlines/
 
 ## Do it yourself
 
