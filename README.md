@@ -2,7 +2,7 @@
 
 The really short version is that the National Gallery of Denmark (SMK) wrote a blog post about geolocating works in their collection:
 
-* https://medium.com/smk-open/were-all-over-the-map-how-we-geolocated-smk-artworks-with-the-kind-help-of-humans-and-machines-91f652295563
+* [We’re all over the map — how we geolocated SMK artworks with the kind help of humans and machines](https://medium.com/smk-open/were-all-over-the-map-how-we-geolocated-smk-artworks-with-the-kind-help-of-humans-and-machines-91f652295563)
 
 And then they plotted all those locations on a map:
 
@@ -10,7 +10,7 @@ And then they plotted all those locations on a map:
 
 And I thought "Wouldn't it be nice if all those locations (coordinates) had corresponding Who's On First (WOF) IDs because [sometime place is not always spatial](https://whosonfirst.org/what)". Conveniently SFO Museum has recently published some tooling to do just that:
 
-* https://millsfield.sfomuseum.org/blog/2021/03/26/spatial/
+* [Reverse-Geocoding in Time at SFO Museum](https://millsfield.sfomuseum.org/blog/2021/03/26/spatial/)
 
 This repository contains a mapping of SMK object IDs and their latitude and longitude coordinates to corresponding WOF ID, name and placetype properties.
 
