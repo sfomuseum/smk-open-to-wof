@@ -79,7 +79,7 @@ $> curl -o smk-open.json https://danmarkskort.open.smk.dk/get_list
 
 ### Step 5
 
-Run the `to-wof` tool included in this repository. This will read the SMK Open map data
+Run the `to-wof` tool included in this repository. This will read the SMK Open map data and look up the WOF ID(s) that contain the latitude and longitude coordinate for each work. The merged results will be emitted as CSV data to STDOUT.
 
 ```
 $> cd to-wof
