@@ -1,6 +1,6 @@
 # smk-open-to-wof
 
-The really short version is that the National Gallery of Denmark (SMK) wrote a blog post about geolocating works in their collection:
+The National Gallery of Denmark (SMK) wrote a blog post about geolocating works in their collection:
 
 * [We’re all over the map — how we geolocated SMK artworks with the kind help of humans and machines](https://medium.com/smk-open/were-all-over-the-map-how-we-geolocated-smk-artworks-with-the-kind-help-of-humans-and-machines-91f652295563)
 
