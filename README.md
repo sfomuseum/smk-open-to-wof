@@ -16,6 +16,17 @@ This repository contains a mapping of SMK object IDs and their latitude and long
 
 * [smk-open-wof.csv](smk-open-wof.csv)
 
+And now it's possible to query for objects in the SMK collection using a WOF ID. For example, here are works in the neighbourhood of [Niels Juels Gade](https://spelunker.whosonfirst.org/id/85906061):
+
+```
+$> grep 85906061 ./smk-open-wof.csv 
+70,55.67634666739197,12.587949512316898,85906061,101749159,Niels Juels Gade,neighbourhood
+441,55.675375135166256,12.587992427661137,85906061,101749159,Niels Juels Gade,neighbourhood
+1421,55.67605987856784,12.586535647521977,85906061,101749159,Niels Juels Gade,neighbourhood
+2778,55.67678132295374,12.589279887988285,85906061,101749159,Niels Juels Gade,neighbourhood
+3193,55.67739609142182,12.587052924731443,85906061,101749159,Niels Juels Gade,neighbourhood
+```
+
 It also contains the raw SMK data source used to build this mapping:
 
 * [smk-open.json](smk-open.json)
@@ -79,6 +90,7 @@ $> go run main.go -source ../smk-open.json > ../smk-open-wof.csv
 
 ## See also
 
+* https://spelunker.whosonfirst.org/id/85633121 (Denmark)
 * https://github.com/whosonfirst-data/whosonfirst-data-admin-dk
 * https://github.com/whosonfirst/go-whosonfirst-spatial-www-sqlite
 * https://github.com/whosonfirst/go-whosonfirst-sqlite-features-index
